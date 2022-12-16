@@ -1,0 +1,64 @@
+
+main{
+    /*background-color: #041F60;*/
+    background: url(../img/tile.png) repeat;
+    height: auto;
+}
+
+#profile-img{
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    width: 250px;
+    height: 250px;
+}
+
+a{
+    color: #B4F5F0 !important;
+    text-decoration: none !important;
+}
+
+i{
+    font-size: 2rem;
+}
+
+hr{
+    border-top: 1px solid #b4f5f0 !important; 
+    opacity: 1 !important;
+}
+
+#anchor-one{
+    transition: 0.5s;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#anchor-one:hover{
+    background-color: #B4F5F0;
+    color: #041F60 !important;
+}
+
+#header-container{
+    background: #0476D0;
+    border-radius: 10px;
+    border: 4px solid #B4F5F0;
+}
+
+#profile-border{
+    border-left: 4px solid #B4F5F0;
+}
+
+#btn-anchor{
+    transition: 0.5s;
+}
+
+#btn-anchor:hover{
+    background-color: #041F60 !important;
+    color: #B4F5F0 !important;
+}
+
+@media (max-width: 991px) {
+    #profile-border{
+        border-left: hidden;
+    }
+}
